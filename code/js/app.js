@@ -7,7 +7,7 @@ var app = {
 	},
 	showCards(dataJson) {
 		console.log(dataJson);
-		jsonData.cardlist.forEach(element => {
+		dataJson.cardlist.forEach(element => {
 			let card = `<div class="col-lg-3 col-md-6 mb-4 net-all">
 			<div class="card h-100">
 			  <img class="card-img-top" src="${element.imgUrl}" alt="Moodle">
